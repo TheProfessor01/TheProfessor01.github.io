@@ -109,6 +109,15 @@
       line-height: 0.98;
     }
 
+    h1 span {
+      display: block;
+    }
+
+    .tagline-secondary {
+      font-size: clamp(2rem, 4.4vw, 3.8rem);
+      white-space: nowrap;
+    }
+
     .hero-copy {
       max-width: 780px;
       color: #d6e4ee;
@@ -687,8 +696,10 @@
     <div class="hero">
       <div>
         <p class="eyebrow">FROM THE CLASSROOM TO ANALYTICS</p>
-        <h1>Exploring data.
-            Sharing understanding.</h1>
+        <h1>
+          <span>Exploring data.</span>
+          <span class="tagline-secondary">Sharing understanding.</span>
+        </h1>
         <p class="hero-copy">
           I am a mathematics professional and artificial intelligence graduate student expanding
           into data analytics through projects with Python, SQL, machine learning, dashboards,
